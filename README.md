@@ -44,7 +44,7 @@ This ensures that the script will work again for you later.
 
 The following papers will probably be referenced during the course - they're good reads about common SDM issues and solutions
 
-Wenger SJ, Olden JD (2012) Assessing transferability of ecological models: an underappreciated aspect of statistical validation. *Methods Ecol Evol* **3**: 260–267. doi: [10.1111/j.2041-210x.2011.00170.x](http://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2011.00170.x/abstract)
+> Wenger SJ, Olden JD (2012) Assessing transferability of ecological models: an underappreciated aspect of statistical validation. *Methods Ecol Evol* **3**: 260–267. doi: [10.1111/j.2041-210x.2011.00170.x](http://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2011.00170.x/abstract)
 
 
 #### Notes
