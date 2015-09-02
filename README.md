@@ -25,7 +25,7 @@ As soon as the slides for the seminars are available, we'll put them here for yo
 
 #### Practicals
 
-Incomplete R scripts for each of the workshop practical sessions can be downloaded here:
+Incomplete R scripts for each of the workshop practical sessions can be downloaded form the links below (right-click and *save link as*):
 
 * [01 - Introduction](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/01_introduction.R)
 * [02 - Presence-only](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/02_presence_only.R)
