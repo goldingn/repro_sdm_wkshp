@@ -24,7 +24,7 @@ Incomplete R scripts for each of the workshop practical sessions can be found in
 The idea is for attendees to save a copy of each of these R scripts and to add to them throughout the workshop.
 At the end of the workshop, everyone should therefore have a library of reproducible scripts for running a range of SDMs to take home and re-use.
 
-At the top of each script is the command: ```r rm(list = ls()) ```  which clears all objects from the workspace.
+At the top of each script is the command: `rm(list = ls())`  which clears all objects from the workspace.
 
 (to do) 
 
