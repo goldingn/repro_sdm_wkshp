@@ -25,7 +25,12 @@ As soon as the slides for the seminars are available, we'll put them here for yo
 
 #### Practicals
 
-Incomplete R scripts for each of the workshop practical sessions can be found in the [practicals](https://github.com/goldingn/repro_sdm_wkshp/tree/master/practicals) folder.
+Incomplete R scripts for each of the workshop practical sessions can be downloaded here:
+
+* [01 - Introduction](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/01_introduction.R)
+* [02 - Presence-only](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/02_presence_only.R)
+* [03 - Observation bias](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/03_observation_bias.R)
+* [04 - Validation](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/04_validation.R)
 
 The idea is for attendees to save a copy of each of these R scripts and to add to them throughout the workshop.
 At the end of the workshop, everyone should have a library of reproducible scripts for running a range of SDMs to take home and re-use.
