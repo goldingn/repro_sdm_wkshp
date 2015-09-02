@@ -2,7 +2,7 @@
 
 8.45-9.00	**Arrival, coffee and settling down time**
 
-9.00-9.30	**Seminar: **Introduction to SDM
+9.00-9.30	**Seminar:** Introduction to SDM
 
 * Geographic vs. environmental space
 * The niche as a function
@@ -23,7 +23,7 @@
 * Presence/absence model assumptions 
 * Different models for presence-only data
 
-11.30-12.30	**Practical: **Fitting different presence-only models
+11.30-12.30	**Practical:** Fitting different presence-only models
 
 * The ‘naive’ approach - presence/absence models with pseudo-absence points  [reference: Elith?, Ward]
 * MaxEnt  [reference: Phillips et al. x2]
@@ -54,7 +54,7 @@
 * overfitting
 * properties of different validation metrics [reference: Lawson et al. (2014) MEE; Wengler & Olden (2012) MEE]
 
-16.00 - 17.00	**Practical: **Comparing different validation datasets
+16.00 - 17.00	**Practical:** Comparing different validation datasets
 
 * Loop through multiple analyses to compute in-sample and out-of-sample validation statistics
 * Compare performance of different models on random and geographically stratified hold-out data
