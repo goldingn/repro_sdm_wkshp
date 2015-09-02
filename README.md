@@ -11,11 +11,16 @@ There is a rough timetable for the workshop [here](https://github.com/goldingn/r
 
 #### Getting started
 
-(to do)
+Note that attendees must bring their own laptop computers as none will be provided.
+Before arriving, please make sure you have a recent version of R - **version 3.2.0 or higher** - installed.
+It would be helpful if you could also install the most recent version of `zoon` before arriving.
+`zoon` isn't on the CRAN repositories yet, so installation may be a bit fiddly, instructions can be found [here](https://github.com/zoonproject/zoon#to-install-the-stableish-version-directly-from-r).
+
+If you don't manage to install `zoon` before the workshop, don't worry - we'll give you a hand on the day.
 
 #### Seminars
 
-(to do)
+As soon as the slides for the seminars are available, we'll put them here for your reference.
 
 #### Practicals
 
@@ -25,8 +30,8 @@ The idea is for attendees to save a copy of each of these R scripts and to add t
 At the end of the workshop, everyone should therefore have a library of reproducible scripts for running a range of SDMs to take home and re-use.
 
 At the top of each script is the command: `rm(list = ls())`  which clears all objects from the workspace.
-
-(to do) 
+The reason for this is so that you can run the entire script from beginning to end and make sure everything works and all the code needed is in there.
+This ensures that the script will work again for you later.
 
 #### Notes
 
@@ -36,10 +41,11 @@ Here's a short URL to this page: **[https://goo.gl/aFP3Tv](https://goo.gl/aFP3Tv
 
 N.B. fiddling with code and bugging the helpers during breaks is actively encouraged!
 
-Users must bring their own laptop computers as none will be provided. Before arriving, please make sure you have a working version of R (**version?**) installed and have installed the [zoon R package](https://github.com/zoonproject/zoon) (installation details here: [https://github.com/zoonproject/zoon](https://github.com/zoonproject/zoon), note this may take a little longer for Windows users, as you’ll need to install RTools first (see here: [http://cran.r-project.org/bin/windows/Rtools/](http://cran.r-project.org/bin/windows/Rtools/) then here: [https://zoonproject.wordpress.com/2014/09/16/61/](https://zoonproject.wordpress.com/2014/09/16/61/)).
 
 
 ### Literature
+
+The following papers will probably be referenced during the course - they're good reads about common SDM issues and solutions
 
 Wenger SJ, Olden JD (2012) Assessing transferability of ecological models: an underappreciated aspect of statistical validation. Methods Ecol Evol 3: 260–267. doi: [10.1111/j.2041-210x.2011.00170.x](http://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2011.00170.x/abstract)
 
