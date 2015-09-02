@@ -1,2 +1,2 @@
-# repro_sdm_wkshp
-Materials for the BES QE &amp; Macroecology SIGs' training workshop on reproducible SDM
+# Reproducible SDM Training Workshop
+### Materials for the BES QE & Macroecology SIGs' training workshop on reproducible SDM
