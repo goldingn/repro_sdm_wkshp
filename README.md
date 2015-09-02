@@ -1,2 +1,2 @@
 # Reproducible SDM Training Workshop
-### Materials for the BES QE & Macroecology SIGs' training workshop on reproducible SDM
+### Materials for the Training Workshop on Reproducible Species Distribution Modelling run by the [BES](http://www.britishecologicalsociety.org/)'s [Quantitative Ecology](http://www.britishecologicalsociety.org/getting-involved/special-interest-groups/quantitative-ecology) and [Macroecology](http://www.britishecologicalsociety.org/getting-involved/special-interest-groups/macroecology) Special Interest Groups and the [ZOӦN project](https://zoonproject.wordpress.com) of [2020 Science](http://www.2020science.net). 
