@@ -7,3 +7,13 @@
 
 # clear workspace
 rm(list = ls())
+
+
+library(zoon)
+work1 <- workflow(occurrence = UKAnophelesPlumbeus,
+                  covariate  = Bioclim(extent = c(-11, 2.5, 49.5, 61),
+                                       res = 2.5),
+                  process    = BiasBackground(bias = FrescaloBias,
+                                              n = 500),
+                  model      = GBM,
+                  output     = InteractiveMap)
