@@ -132,7 +132,7 @@ work2 <- workflow(occurrence = CWBZimbabwe,
 # Rather than fit the model again each time we want to get a different output,
 # we can instead combine them in a list:
 
-work2 <- workflow(occurrence = CWBZimbabwe,
+work3 <- workflow(occurrence = CWBZimbabwe,
                   covariate = Bioclim(extent = c(28, 38, -25, -15),
                                       res = 2.5),
                   process = NoProcess,
@@ -145,7 +145,7 @@ work2 <- workflow(occurrence = CWBZimbabwe,
 
 # We can use lists with other module types too:
 
-work2 <- workflow(occurrence = CWBZimbabwe,
+work4 <- workflow(occurrence = CWBZimbabwe,
                   covariate = Bioclim(extent = c(28, 38, -25, -15),
                                       res = 2.5),
                   process = NoProcess,
@@ -162,6 +162,11 @@ work2 <- workflow(occurrence = CWBZimbabwe,
 # otherwise the number of combinations of operations to perfrom would
 # grow very rapidly!
 
+# To get a visual representation of the workflow you've just run,
+# you can plot it, like this:
+plot(work4)
+
+# (the text is a bit small I know, we're still working on this)
 
 # ~~~~~~~~~~
 # Chaining module types
@@ -176,4 +181,30 @@ work2 <- workflow(occurrence = CWBZimbabwe,
 
 # For example:
 
-# TO DO
+work5 <- workflow(occurrence = AnophelesPlumbeus,
+                  covariate = UKBioclim,
+                  process = Chain(Background(n = 500),
+                                  Crossvalidate(k = 3)),
+                  model = LogisticRegression,
+                  output = InteractiveMap)
+
+# note that this is a presence- only SDM analysis - the topic of the next
+# session...
+
+
+# ~~~~~~~~~~~~~~~~
+# Now, feel free to have a play around coming up with new workflows!
+
+
+
+
+
+# you can use this space...
+
+
+
+
+# and this space...
+
+
+
