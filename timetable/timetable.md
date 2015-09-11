@@ -59,8 +59,18 @@
 * Overfitting
 * Properties of different validation metrics [reference: Lawson et al. (2014) MEE; Wengler & Olden (2012) MEE]
 
-16.00 - 17.00	**Practical:** Comparing different validation datasets
+16.00 - 16.30	**Practical:** Comparing different validation datasets
 
-* Loop through multiple analyses to compute in-sample and out-of-sample validation statistics
-* Compare performance of different models on random and geographically stratified hold-out data
+* In-sample versus out-of-sample validation statistics
+* k-fold random versus geographically-stratified CV
+
+16.30 - 17.00	**zoon Feedback & SDM clinic**
+
+* What do you think of the aims/niche of zoon?
+* What do you think of the software?
+* What would need to be changed before you'd use it in a paper?
+
+* Ask us any questions about your SDM analysis!
+
+
 
