@@ -44,6 +44,10 @@ The reason for this is so that you can run the entire script from beginning to e
 This ensures that the script will work again for you later.
 
 
+Also, [here's the ad-hoc stacked SDM example](https://raw.githubusercontent.com/goldingn/repro_sdm_wkshp/master/practicals/stacked_sdms_with_zoon.R) showed at the end of the day.
+
+
+
 #### Literature
 
 The following papers will probably be referenced during the course - they're good reads about common SDM issues and solutions:
