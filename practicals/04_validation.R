@@ -43,7 +43,7 @@ ModuleHelp(Crossvalidate)
 # Try varying number of folds and look at predictive performance each time
 work2 <- workflow(occurrence = UKAnophelesPlumbeus,
                   covariate = UKAir,
-                  process = c(OneHundredBackground,
+                  process = Chain(OneHundredBackground,
                               Crossvalidate(k = 3)),
                   model = LogisticRegression,
                   output = PerformanceMeasures)
@@ -61,7 +61,7 @@ ModuleHelp(PartitionDisc)
 # vary number of folds and look at predictive performance each time
 work3 <- workflow(occurrence = UKAnophelesPlumbeus,
                   covariate = UKAir,
-                  process = c(OneHundredBackground,
+                  process = Chain(OneHundredBackground,
                               PartitionDisc),
                   model = LogisticRegression,
                   output = PerformanceMeasures)
