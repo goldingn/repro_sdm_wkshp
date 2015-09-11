@@ -12,7 +12,11 @@ library(zoon)
 # ~~~~~~~~~~~~
 # In-sample validation statistics
 
+# You can get validation statistics via the PerformanceMeasures module:
 ModuleHelp(PerformanceMeasures)
+
+# even on a simple model, without performing any cross-validation,
+# we can return the statistics...
 
 work1 <- workflow(occurrence = UKAnophelesPlumbeus,
               covariate = UKAir,
@@ -20,12 +24,23 @@ work1 <- workflow(occurrence = UKAnophelesPlumbeus,
               model = LogisticRegression,
               output = PerformanceMeasures)
 
+# ... however the module will issue a warning telling you that it isn't
+# a great idea
+
 # ~~~~~~~~~~~~
 # (standard) k-fold cross-validation
 
+# a better idea is k-fold cross-validation; splitting the data into k
+# subsets and fitting k models, each time holding back the k^th subset for
+# evaluation.
+
+# zoon handles crossvalidation automatically, provided a process module adds
+# a 'fold' column to the data telling it which fold is which.
+# The Crossvalidate process module handles this for k-fold cross validation.
+
 ModuleHelp(Crossvalidate)
 
-# vary number of folds and look at predictive performance each time
+# Try varying number of folds and look at predictive performance each time
 work2 <- workflow(occurrence = UKAnophelesPlumbeus,
                   covariate = UKAir,
                   process = c(OneHundredBackground,
@@ -37,6 +52,10 @@ work2 <- workflow(occurrence = UKAnophelesPlumbeus,
 # ~~~~~~~~~~~~
 # spatially stratified cross-validation
 
+# For SDM, splitting the training and test sets up into geographically distinct
+# regions is often a good idea. The PartitionDisc process module will do this,
+# along with an optional buffer to reduce environmental correlations further.
+
 ModuleHelp(PartitionDisc)
 
 # vary number of folds and look at predictive performance each time
@@ -47,3 +66,5 @@ work3 <- workflow(occurrence = UKAnophelesPlumbeus,
                   model = LogisticRegression,
                   output = PerformanceMeasures)
 
+
+# ~~~~~~~~~~~~~
