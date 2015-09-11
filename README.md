@@ -25,6 +25,8 @@ As soon as the slides for the seminars are available, we'll put them here for yo
 
 To start with, [here are some of Greg McInerny's slides](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/Greg_McInernys_zoon_slides.pdf) on the zoon project and why we need it
 
+Here are the markdown files for Bob's slides [introducing SDM](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/bob_markdown/SDMsSep1Tut1.md) and [presence/absence vs presence-only](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/bob_markdown/SDMsSep1Tut2.md) SDMi
+
 #### Practicals
 
 Incomplete R scripts for each of the workshop practical sessions can be downloaded via the links below (right-click and *save link as*):
