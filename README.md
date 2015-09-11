@@ -23,6 +23,8 @@ If you don't manage to install zoon before the workshop, don't worry - we'll giv
 
 As soon as the slides for the seminars are available, we'll put them here for your reference.
 
+To start with, [here are some of Greg McInerny's slides](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/Greg_McInernys_zoon_slides.pdf) on the zoon project and why we need it
+
 #### Practicals
 
 Incomplete R scripts for each of the workshop practical sessions can be downloaded via the links below (right-click and *save link as*):
