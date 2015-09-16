@@ -21,11 +21,13 @@ If you don't manage to install zoon before the workshop, don't worry - we'll giv
 
 #### Seminars
 
-As soon as the slides for the seminars are available, we'll put them here for your reference.
 
-To start with, [here are some of Greg McInerny's slides](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/Greg_McInernys_zoon_slides.pdf) on the zoon project and why we need it
+[Here are some of Greg McInerny's slides](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/Greg_McInernys_zoon_slides.pdf) on the zoon project and why we need it
 
-Here are the markdown files for Bob's slides [introducing SDM](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/bob_markdown/SDMsSep1Tut1.md) and [presence/absence vs presence-only](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/bob_markdown/SDMsSep1Tut2.md) SDMi
+Here are the markdown files for Bob's slides [introducing SDM](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/bob_markdown/SDMsSep1Tut1.md) and [presence/absence vs presence-only](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/bob_markdown/SDMsSep1Tut2.md) SDM
+
+And here are Emiel's slides on [selection bias in SDM](https://github.com/goldingn/repro_sdm_wkshp/blob/master/slides/sdm_selection_bias.html).
+Emiel's last slide deck will be uploaded soon, and we'll improve the literature section below too.
 
 #### Practicals
 
