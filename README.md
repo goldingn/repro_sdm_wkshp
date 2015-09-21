@@ -27,7 +27,6 @@ If you don't manage to install zoon before the workshop, don't worry - we'll giv
 Here are Bob's slides [introducing SDM](https://rawgit.com/goldingn/repro_sdm_wkshp/master/slides/SDMsSep1Tut1.html) and covering [presence/absence vs presence-only](https://rawgit.com/goldingn/repro_sdm_wkshp/master/slides/SDMsSep1Tut2.html) SDM
 
 And here are Emiel's slides on [selection bias in SDM](https://rawgit.com/goldingn/repro_sdm_wkshp/master/slides/sdm_selection_bias.html) and [SDM validation](https://rawgit.com/goldingn/repro_sdm_wkshp/master/slides/sdm_validation.html).
-Emiel's last slide deck will be uploaded soon, and we'll improve the literature section below too.
 
 #### Practicals
 
