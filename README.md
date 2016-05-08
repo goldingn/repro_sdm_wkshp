@@ -1,5 +1,9 @@
 # Reproducible SDM Training Workshop
 
+[![DOI](https://zenodo.org/badge/21907/goldingn/repro_sdm_wkshp.svg)](https://zenodo.org/badge/latestdoi/21907/goldingn/repro_sdm_wkshp)
+
+
+
 #### Materials for the Training Workshop on Reproducible Species Distribution Modelling run by the [BES](http://www.britishecologicalsociety.org/)'s [Quantitative Ecology](http://www.britishecologicalsociety.org/getting-involved/special-interest-groups/quantitative-ecology) and [Macroecology](http://www.britishecologicalsociety.org/getting-involved/special-interest-groups/macroecology) Special Interest Groups and the [ZOӦN project](https://zoonproject.wordpress.com) of [2020 Science](http://www.2020science.net)
 
 This training workshop aims to provide a brief introduction to SDM analyses, highlighting common pitfalls and some solutions to them and helping attendees to carry out these analyses in repreoducible way, so that they can re-use them in the future and share them with others.
